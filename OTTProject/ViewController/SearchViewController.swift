@@ -21,13 +21,13 @@ class SearchViewController: UIViewController {
     //MARK: - Variables
     private let searchViewModel = SearchViewModel()
     private let movieViewModel = MovieViewModel()
-    var mostPopularArray: [PosterModel.Content] = []
-    var movieArray: [PosterModel.Content] = [] //first section (1,2 page)
-    var movieArray2: [PosterModel.Content] = [] //2nd section (3rd page)
+    var mostPopularArray: [MovieModel.Content] = []
+    var movieArray: [MovieModel.Content] = [] //first section (1,2 page)
+    var movieArray2: [MovieModel.Content] = [] //2nd section (3rd page)
 
     // Filtered arrays to hold search results
-    var filteredMovieArray: [PosterModel.Content] = []
-    var filteredMovieArray2: [PosterModel.Content] = []
+    var filteredMovieArray: [MovieModel.Content] = []
+    var filteredMovieArray2: [MovieModel.Content] = []
     
     //Cell Setting
     private let smallCellHeight:CGFloat = 200 // 3 in one row
@@ -157,7 +157,7 @@ extension SearchViewController: UICollectionViewDelegate, UICollectionViewDataSo
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(MovieCollectionViewCell.self)", for: indexPath) as! MovieCollectionViewCell
-        var dataArray: [PosterModel.Content] = []
+        var dataArray: [MovieModel.Content] = []
         if indexPath.section == 0 {
             dataArray = mostPopularArray
         } else {

@@ -16,8 +16,8 @@ class MovieListViewController: UIViewController {
 
     //MARK: - Variables
     private let movieViewModel = MovieViewModel()
-    var movieArray: [PosterModel.Content] = [] //first section (1,2 page)
-    var movieArray2: [PosterModel.Content] = [] //2nd section (3rd page)
+    var movieArray: [MovieModel.Content] = [] //first section (1,2 page)
+    var movieArray2: [MovieModel.Content] = [] //2nd section (3rd page)
     
     var pageNo = 0
     var totalItems = 1
@@ -35,7 +35,7 @@ class MovieListViewController: UIViewController {
         setCollectionViews()
         infiniteCollctionViewSetup()
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1){
-            self.fetchNewData()
+            self.fetchMovieData()
         }
     }
     
@@ -56,7 +56,7 @@ class MovieListViewController: UIViewController {
         self.navigationController?.pushViewController(searchVC, animated: true)
     }
     //MARK: - API Calling
-    func fetchNewData() {
+    func fetchMovieData() {
         pageNo += 1
         movieViewModel.fetchData(pageNo: pageNo) { [weak self] data in
             guard let self = self else { return }
@@ -98,7 +98,7 @@ class MovieListViewController: UIViewController {
         
         // Add infinite scroll handler
         movieCV?.addInfiniteScroll { [unowned self] scrollView in
-            self.fetchNewData()
+            self.fetchMovieData()
         }
         
         movieCV.setShouldShowInfiniteScrollHandler { _ -> Bool in
@@ -106,7 +106,7 @@ class MovieListViewController: UIViewController {
         }
     }
 
-    func setDataInCollectionView(data: [PosterModel.Content]?) {
+    func setDataInCollectionView(data: [MovieModel.Content]?) {
         guard let data = data else { return }
         let newItems = data
         

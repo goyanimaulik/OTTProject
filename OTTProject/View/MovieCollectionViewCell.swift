@@ -11,7 +11,7 @@ class MovieCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var movieImg: UIImageView!
     @IBOutlet weak var movieNameLbl: MarqueeLabel!
  
-    func setupCell(data:PosterModel.Content) {
+    func setupCell(data:MovieModel.Content) {
         movieImg.setImage(url: data.posterImage)
         movieNameLbl.text = data.name
         
@@ -26,12 +26,3 @@ class MovieCollectionViewCell: UICollectionViewCell {
 }
 
 
-extension UIImageView {
-    func setImage(url : String?) {
-        if let url = url, let img = UIImage.init(named: url) {
-            self.image = img
-        } else {
-            self.image = UIImage.init(named: "placeholder_for_missing_posters")
-        }
-    }
-}

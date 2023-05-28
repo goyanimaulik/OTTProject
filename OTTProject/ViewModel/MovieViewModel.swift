@@ -10,9 +10,9 @@ import UIKit
 
 class MovieViewModel {
     
-    func fetchData(pageNo: Int, success: @escaping (PosterModel) -> Void, failure: ((String?) -> Void)? = nil) {
+    func fetchData(pageNo: Int, success: @escaping (MovieModel) -> Void, failure: ((String?) -> Void)? = nil) {
         
-        JsonManager.readFileFrom(fileName: "CONTENTLISTINGPAGE-PAGE\(pageNo)", model: PosterModel.self) { model in
+        JsonManager.readFileFrom(fileName: "CONTENTLISTINGPAGE-PAGE\(pageNo)", model: MovieModel.self) { model in
             success(model)
         } failure: { error in
             failure?(error)

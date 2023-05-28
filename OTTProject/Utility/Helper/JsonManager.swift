@@ -18,8 +18,8 @@ class JsonManager: NSObject {
                 let data = try Data(contentsOf: url)
                 
                 let decoder = JSONDecoder()
-                let posterModel = try decoder.decode(model, from: data)
-                success(posterModel)
+                let model = try decoder.decode(model, from: data)
+                success(model)
             } catch {
                 print("Error reading JSON file: \(error)")
                 failure?(error.localizedDescription)

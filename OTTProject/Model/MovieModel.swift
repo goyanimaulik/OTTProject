@@ -1,5 +1,5 @@
 //
-//  PosterModel.swift
+//  MovieModel.swift
 //  OTTProject
 //
 //  Created by iMac on 27/05/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct PosterModel: Codable {
+struct MovieModel: Codable {
     
     var page: Page?
     

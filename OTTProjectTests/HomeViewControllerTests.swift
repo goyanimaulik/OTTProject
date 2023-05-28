@@ -38,18 +38,18 @@ class MovieListViewControllerTests: XCTestCase {
         XCTAssertEqual(layout?.minimumLineSpacing, 30)
     }
 
-    // MARK: - fetchNewData
+    // MARK: - fetchMovieData
 
     func testFetchNewData_IncrementsPageNo() {
-        sut.fetchNewData()
+        sut.fetchMovieData()
         XCTAssertEqual(sut.pageNo, 2)
     }
 
     // MARK: - setDataInCollectionView
 //
 //    func testSetDataInCollectionView_AppendsDataToCorrectArray() {
-//        var data = [OTTProject.PosterModel.Content]()
-//        let content = OTTProject.PosterModel.Content(name: "Test", posterImage: "test_image")
+//        var data = [OTTProject.MovieModel.Content]()
+//        let content = OTTProject.MovieModel.Content(name: "Test", posterImage: "test_image")
 //        data.append(content)
 //        sut.pageNo = 3
 //
@@ -69,8 +69,8 @@ class MovieListViewControllerTests: XCTestCase {
 
     func testCollectionView_NumberOfItemsInSection_ReturnsCorrectValue() {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
-        sut.movieArray = [OTTProject.PosterModel.Content(name: "Item 1", posterImage: "image1")]
-        sut.movieArray2 = [OTTProject.PosterModel.Content(name: "Item 2", posterImage: "image2")]
+        sut.movieArray = [OTTProject.MovieModel.Content(name: "Item 1", posterImage: "image1")]
+        sut.movieArray2 = [OTTProject.MovieModel.Content(name: "Item 2", posterImage: "image2")]
 
         XCTAssertEqual(sut.collectionView(collectionView, numberOfItemsInSection: 0), 1)
         XCTAssertEqual(sut.collectionView(collectionView, numberOfItemsInSection: 1), 1)
@@ -80,7 +80,7 @@ class MovieListViewControllerTests: XCTestCase {
 //        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
 //        collectionView.register(MovieCollectionViewCell.self, forCellWithReuseIdentifier: "\(MovieCollectionViewCell.self)")
 //
-//        sut.posterArray = [OTTProject.PosterModel.Content(name: "Item 1", posterImage: "image1")]
+//        sut.posterArray = [OTTProject.MovieModel.Content(name: "Item 1", posterImage: "image1")]
 //        let indexPath = IndexPath(item: 0, section: 0)
 //        let cell = sut.collectionView(collectionView, cellForItemAt: indexPath) as? OTTProject.MovieCollectionViewCell
 //

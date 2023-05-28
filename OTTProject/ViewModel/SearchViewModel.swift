@@ -10,9 +10,9 @@ import UIKit
 
 class SearchViewModel {
     
-    func fetchMostPopularMovie(success: @escaping (PosterModel) -> Void, failure: ((String?) -> Void)? = nil) {
+    func fetchMostPopularMovie(success: @escaping (MovieModel) -> Void, failure: ((String?) -> Void)? = nil) {
         
-        JsonManager.readFileFrom(fileName: "MOST-POPULAR", model: PosterModel.self) { model in
+        JsonManager.readFileFrom(fileName: "MOST-POPULAR", model: MovieModel.self) { model in
             success(model)
         } failure: { error in
             failure?(error)
