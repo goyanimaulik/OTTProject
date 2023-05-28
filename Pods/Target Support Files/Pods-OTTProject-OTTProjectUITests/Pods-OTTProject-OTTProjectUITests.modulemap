@@ -1,0 +1,6 @@
+framework module Pods_OTTProject_OTTProjectUITests {
+  umbrella header "Pods-OTTProject-OTTProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - FLAnimatedImage (1.0.17)
+  - UIScrollView-InfiniteScroll (1.3.0)
+
+DEPENDENCIES:
+  - FLAnimatedImage (~> 1.0)
+  - UIScrollView-InfiniteScroll
+
+SPEC REPOS:
+  trunk:
+    - FLAnimatedImage
+    - UIScrollView-InfiniteScroll
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
+  UIScrollView-InfiniteScroll: a30af3dec185edd26d6ad50c521aa277f3ebf177
+
+PODFILE CHECKSUM: 9fc6862a53811b0020570fe64164dfe98557e9d3
+
+COCOAPODS: 1.12.1

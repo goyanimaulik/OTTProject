@@ -1,0 +1,1219 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1889F3C80179B6C70F26B5C7C8324D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BADAF97F77FC4003B3610E7ACA312E1 /* Foundation.framework */; };
+		2B507E9F301E6BC9F4D8EB8043B01CD3 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2961742B99582EC32D91A5C0A48A2 /* FLAnimatedImage.m */; };
+		42656EE69CA697C4F483ED44B688B529 /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1527A5DCA63C46058A9074B79E8AF5 /* FLAnimatedImage-dummy.m */; };
+		49EBF9F83154DE0C9D5502C152416BF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4219BA7CAED0202261970996230F11F /* CoreGraphics.framework */; };
+		56687ED88A5F09B81B2296B3FDD12F4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BADAF97F77FC4003B3610E7ACA312E1 /* Foundation.framework */; };
+		6AF4043ACDA23485E9C514F6C7CB349C /* UIScrollView-InfiniteScroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B44F9638B645643707D9740AE60FFB7 /* UIScrollView-InfiniteScroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E91C0E1F97D0DCA638585D647C0C075 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A90AD9CF06EBBB823321B4D6C4DE47E /* FLAnimatedImageView.m */; };
+		7013EA209D51198AECF0762D54C46108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BADAF97F77FC4003B3610E7ACA312E1 /* Foundation.framework */; };
+		77E8DE110A824452B527E637119EE5D1 /* Pods-OTTProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C76983ABAF3179E3BFAFC41D1E05749 /* Pods-OTTProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B88D0CD283F3D5AAA5D4C3ABDBAF02 /* Pods-OTTProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AB690C124B3D0E8E3AB2289109F4E /* Pods-OTTProjectTests-dummy.m */; };
+		86FA71F080EACF27E57C62E69C735355 /* Pods-OTTProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C40DD77209B43D86BC5CD2078A22B8F /* Pods-OTTProject-dummy.m */; };
+		9A6DCB2F26CC7BC5DABF6B71D7042287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BADAF97F77FC4003B3610E7ACA312E1 /* Foundation.framework */; };
+		9F7158EF1A3E6E778AB1F8712A3AA86E /* FLAnimatedImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDD120091BED18E97E29AB34353C0A9 /* FLAnimatedImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B1C850878D64EFD1BCE8A6B78453B7 /* Pods-OTTProject-OTTProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B9B509D2753258B4FEC9E16B9E83C7 /* Pods-OTTProject-OTTProjectUITests-dummy.m */; };
+		ABA5F774679629B93A204BE0E3A78CE6 /* UIScrollView-InfiniteScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD4CD67733731343C5F43B24E85E619 /* UIScrollView-InfiniteScroll-dummy.m */; };
+		B7587BA205F6E34A07D9CBE0BEE1CD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BADAF97F77FC4003B3610E7ACA312E1 /* Foundation.framework */; };
+		C685FAE975137344D1474AD7E4096DA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EE3948404F12C5B6DA9AF99AB40738 /* QuartzCore.framework */; };
+		CA72A94EA4077D1B554A75F9BBE09028 /* UIScrollView+InfiniteScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 3321E46B4FE76181F26B1A15CAF14146 /* UIScrollView+InfiniteScroll.m */; };
+		DB1D0708A4D56029D14636419B03F14C /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC98E78D6F6E8917CBABA6A58ADFF51E /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDC6A91F8484C74300097D377209B684 /* UIScrollView+InfiniteScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9755AD14A410DF16708031A6657A02 /* UIScrollView+InfiniteScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E113594EC32F9B04E66716925E7225C2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434BDB8968205C3B66ECCF4FCB2767A8 /* ImageIO.framework */; };
+		EA35339386CD1251FAD44A9E74A25D74 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1F5593A57296E9BDE8C7853FEEE637 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF026726DB822494F4B6B8332348BD8 /* Pods-OTTProject-OTTProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC90390021222AF2803C59683A2F4F0 /* Pods-OTTProject-OTTProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDAA9F46A8161BF490DE435EDE7C1ADC /* Pods-OTTProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89599FAF53C29E045ADD3F48605BED28 /* Pods-OTTProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10BEE6FD0AC9D7CD26367BB50C68405B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497D5613CAD2E8E4EBC2864BF6726F0F;
+			remoteInfo = "Pods-OTTProject";
+		};
+		261CDF743CD8FA7E72A1D998B2930C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E07B8857C62239138B47708BB6DAF9B;
+			remoteInfo = "UIScrollView-InfiniteScroll";
+		};
+		42E48A2D1F94074774794927917792D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E07B8857C62239138B47708BB6DAF9B;
+			remoteInfo = "UIScrollView-InfiniteScroll";
+		};
+		5476C1775E3668F4C47BF8AC7F9962A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8E8992707D01510894596DB9BCCA00;
+			remoteInfo = FLAnimatedImage;
+		};
+		D5388B90EA466EE8F5A77446C4462F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E07B8857C62239138B47708BB6DAF9B;
+			remoteInfo = "UIScrollView-InfiniteScroll";
+		};
+		E861A54EA68F8D38806EB2EBF3B6E24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8E8992707D01510894596DB9BCCA00;
+			remoteInfo = FLAnimatedImage;
+		};
+		E8F5FE5CB19B05E475B0D72D334D5484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8E8992707D01510894596DB9BCCA00;
+			remoteInfo = FLAnimatedImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BADAF97F77FC4003B3610E7ACA312E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0C76983ABAF3179E3BFAFC41D1E05749 /* Pods-OTTProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTTProject-umbrella.h"; sourceTree = "<group>"; };
+		13D6481274E17A3D8E57717201F1E884 /* Pods-OTTProjectTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OTTProjectTests"; path = Pods_OTTProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		178423D7613EAE6F133AFBF5B2CCB800 /* FLAnimatedImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.release.xcconfig; sourceTree = "<group>"; };
+		1B44F9638B645643707D9740AE60FFB7 /* UIScrollView-InfiniteScroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView-InfiniteScroll-umbrella.h"; sourceTree = "<group>"; };
+		1BCF69F2DEC9483BD36F05BD32BE1ECD /* UIScrollView-InfiniteScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIScrollView-InfiniteScroll.debug.xcconfig"; sourceTree = "<group>"; };
+		206EFD5745F665DA70E1B87969930E69 /* Pods-OTTProject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OTTProject"; path = Pods_OTTProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23045A6203579A3A84237642B665D4C6 /* Pods-OTTProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTTProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27764D66BB3B2BA5195A9E20182CDB89 /* Pods-OTTProject-OTTProjectUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OTTProject-OTTProjectUITests"; path = Pods_OTTProject_OTTProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD4CD67733731343C5F43B24E85E619 /* UIScrollView-InfiniteScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView-InfiniteScroll-dummy.m"; sourceTree = "<group>"; };
+		327F47D7F48C1AC7308A4F05D9AD2168 /* Pods-OTTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTTProject.release.xcconfig"; sourceTree = "<group>"; };
+		3321E46B4FE76181F26B1A15CAF14146 /* UIScrollView+InfiniteScroll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+InfiniteScroll.m"; path = "Sources/UIScrollView_InfiniteScroll/UIScrollView+InfiniteScroll.m"; sourceTree = "<group>"; };
+		4336D9614AA1EE16D6A912310F08E784 /* Pods-OTTProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTTProject.modulemap"; sourceTree = "<group>"; };
+		434BDB8968205C3B66ECCF4FCB2767A8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		43B4D9ED5B0472DD93AD4130994C251E /* Pods-OTTProject-OTTProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTTProject-OTTProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49F961794F9627020754BCAC96CED273 /* Pods-OTTProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTTProject-Info.plist"; sourceTree = "<group>"; };
+		4A90AD9CF06EBBB823321B4D6C4DE47E /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		4BD4B117FBDE515337A295A5F830E536 /* UIScrollView-InfiniteScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView-InfiniteScroll-prefix.pch"; sourceTree = "<group>"; };
+		4C4A9952142B2B98C60D07EFC87D51D2 /* FLAnimatedImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLAnimatedImage-Info.plist"; sourceTree = "<group>"; };
+		4D98DA8BAF71B4A2B3EE75D937FE99F9 /* Pods-OTTProject-OTTProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTTProject-OTTProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		5158190A9E908C93D2C18EC3775A86FD /* Pods-OTTProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTTProjectTests-frameworks.sh"; sourceTree = "<group>"; };
+		52282E1A2F3DF58ED70DE4D26DFF07E9 /* Pods-OTTProject-OTTProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTTProject-OTTProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52D8218CC00453610022BE1AB0D5DDFE /* UIScrollView-InfiniteScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UIScrollView-InfiniteScroll.modulemap"; sourceTree = "<group>"; };
+		5F4CE7D9CA926B344738DAD0573FDC73 /* Pods-OTTProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTTProjectTests-Info.plist"; sourceTree = "<group>"; };
+		68783C0681FCDBAFD2263CE22BFB800D /* UIScrollView-InfiniteScroll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIScrollView-InfiniteScroll-Info.plist"; sourceTree = "<group>"; };
+		7175F3637AC8593358B62A5E4277E9FB /* Pods-OTTProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTTProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78B586E07231E403B365CEA3032908DC /* FLAnimatedImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.debug.xcconfig; sourceTree = "<group>"; };
+		7EA2961742B99582EC32D91A5C0A48A2 /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		854E694C9F2B9E1ABAACF7F523EAC82D /* Pods-OTTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTTProject.debug.xcconfig"; sourceTree = "<group>"; };
+		89599FAF53C29E045ADD3F48605BED28 /* Pods-OTTProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTTProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		8F84BB6588F0AC7B8EBAFCE9E43A599B /* Pods-OTTProject-OTTProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTTProject-OTTProjectUITests.modulemap"; sourceTree = "<group>"; };
+		8F9E547DD3C0BE0DFB65B6B1CB2D5D7D /* Pods-OTTProject-OTTProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTTProject-OTTProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C40DD77209B43D86BC5CD2078A22B8F /* Pods-OTTProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTTProject-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1527A5DCA63C46058A9074B79E8AF5 /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
+		A0B9B509D2753258B4FEC9E16B9E83C7 /* Pods-OTTProject-OTTProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTTProject-OTTProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		B355BC97735C5344F8A14E427AEFDAA5 /* Pods-OTTProject-OTTProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTTProject-OTTProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC98E78D6F6E8917CBABA6A58ADFF51E /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/include/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		BDDD120091BED18E97E29AB34353C0A9 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
+		CB08139062D09E7DD13D6CABBB7F4B65 /* Pods-OTTProject-OTTProjectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTTProject-OTTProjectUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CB136FE1A464EA967F8C08270613D13C /* Pods-OTTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB595954FEC1A70D9083247EA7AC3721 /* Pods-OTTProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTTProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC1F5593A57296E9BDE8C7853FEEE637 /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImage/include/FLAnimatedImage.h; sourceTree = "<group>"; };
+		CD003BEDA31C2DDC8B82178F5D1C2D1A /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
+		CD6995443774A711E584FEE1255F529F /* Pods-OTTProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTTProjectTests.modulemap"; sourceTree = "<group>"; };
+		CE6AB690C124B3D0E8E3AB2289109F4E /* Pods-OTTProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTTProjectTests-dummy.m"; sourceTree = "<group>"; };
+		DB167D0183CE85D641ADBD0FE90FA321 /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
+		DB9755AD14A410DF16708031A6657A02 /* UIScrollView+InfiniteScroll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+InfiniteScroll.h"; path = "Sources/UIScrollView_InfiniteScroll/UIScrollView+InfiniteScroll.h"; sourceTree = "<group>"; };
+		E50ACCD7B7FD6CBF7A64141B54F579A5 /* Pods-OTTProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTTProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		E553AE8F617164E9EB412510AB70EB17 /* Pods-OTTProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTTProject-frameworks.sh"; sourceTree = "<group>"; };
+		E870F056EAF1EE0247F3579F93CF337F /* Pods-OTTProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTTProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFC90390021222AF2803C59683A2F4F0 /* Pods-OTTProject-OTTProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTTProject-OTTProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		F01978B724CECF9356E8C344EA51463C /* UIScrollView-InfiniteScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIScrollView-InfiniteScroll.release.xcconfig"; sourceTree = "<group>"; };
+		F4219BA7CAED0202261970996230F11F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F48A8D26D0C9A44FD230008931E0AAC5 /* UIScrollView-InfiniteScroll */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "UIScrollView-InfiniteScroll"; path = UIScrollView_InfiniteScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EE3948404F12C5B6DA9AF99AB40738 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLAnimatedImage; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3744F26541D3A340DA991CE42DD04A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6DCB2F26CC7BC5DABF6B71D7042287 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EA4FFEBC42A175F2F8F73A17C682A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EBF9F83154DE0C9D5502C152416BF8 /* CoreGraphics.framework in Frameworks */,
+				56687ED88A5F09B81B2296B3FDD12F4B /* Foundation.framework in Frameworks */,
+				E113594EC32F9B04E66716925E7225C2 /* ImageIO.framework in Frameworks */,
+				C685FAE975137344D1474AD7E4096DA8 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E542CF8906B320549BAA8D476A3644A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013EA209D51198AECF0762D54C46108 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A4BDB8FB8EEC541B2FAAF8F1F60B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7587BA205F6E34A07D9CBE0BEE1CD16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5180E571B88F0A07932B25EDA1D21C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889F3C80179B6C70F26B5C7C8324D4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034F170015A37990A3B257B3E9E18754 /* UIScrollView-InfiniteScroll */ = {
+			isa = PBXGroup;
+			children = (
+				DB9755AD14A410DF16708031A6657A02 /* UIScrollView+InfiniteScroll.h */,
+				3321E46B4FE76181F26B1A15CAF14146 /* UIScrollView+InfiniteScroll.m */,
+				0C1C7B7824290167631C9DD9CAF3A99F /* Support Files */,
+			);
+			name = "UIScrollView-InfiniteScroll";
+			path = "UIScrollView-InfiniteScroll";
+			sourceTree = "<group>";
+		};
+		0C1C7B7824290167631C9DD9CAF3A99F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52D8218CC00453610022BE1AB0D5DDFE /* UIScrollView-InfiniteScroll.modulemap */,
+				2DD4CD67733731343C5F43B24E85E619 /* UIScrollView-InfiniteScroll-dummy.m */,
+				68783C0681FCDBAFD2263CE22BFB800D /* UIScrollView-InfiniteScroll-Info.plist */,
+				4BD4B117FBDE515337A295A5F830E536 /* UIScrollView-InfiniteScroll-prefix.pch */,
+				1B44F9638B645643707D9740AE60FFB7 /* UIScrollView-InfiniteScroll-umbrella.h */,
+				1BCF69F2DEC9483BD36F05BD32BE1ECD /* UIScrollView-InfiniteScroll.debug.xcconfig */,
+				F01978B724CECF9356E8C344EA51463C /* UIScrollView-InfiniteScroll.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIScrollView-InfiniteScroll";
+			sourceTree = "<group>";
+		};
+		1D1FEB2D71D8E56074772067ACD17764 /* Pods-OTTProject */ = {
+			isa = PBXGroup;
+			children = (
+				4336D9614AA1EE16D6A912310F08E784 /* Pods-OTTProject.modulemap */,
+				7175F3637AC8593358B62A5E4277E9FB /* Pods-OTTProject-acknowledgements.markdown */,
+				E50ACCD7B7FD6CBF7A64141B54F579A5 /* Pods-OTTProject-acknowledgements.plist */,
+				9C40DD77209B43D86BC5CD2078A22B8F /* Pods-OTTProject-dummy.m */,
+				E553AE8F617164E9EB412510AB70EB17 /* Pods-OTTProject-frameworks.sh */,
+				49F961794F9627020754BCAC96CED273 /* Pods-OTTProject-Info.plist */,
+				0C76983ABAF3179E3BFAFC41D1E05749 /* Pods-OTTProject-umbrella.h */,
+				854E694C9F2B9E1ABAACF7F523EAC82D /* Pods-OTTProject.debug.xcconfig */,
+				327F47D7F48C1AC7308A4F05D9AD2168 /* Pods-OTTProject.release.xcconfig */,
+			);
+			name = "Pods-OTTProject";
+			path = "Target Support Files/Pods-OTTProject";
+			sourceTree = "<group>";
+		};
+		1DD7CF3E40A95F78FF98BFC96958B8DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage */,
+				206EFD5745F665DA70E1B87969930E69 /* Pods-OTTProject */,
+				27764D66BB3B2BA5195A9E20182CDB89 /* Pods-OTTProject-OTTProjectUITests */,
+				13D6481274E17A3D8E57717201F1E884 /* Pods-OTTProjectTests */,
+				F48A8D26D0C9A44FD230008931E0AAC5 /* UIScrollView-InfiniteScroll */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5506C03499F6E8D6C9BD9AD89F3E8D48 /* Pods-OTTProject-OTTProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F84BB6588F0AC7B8EBAFCE9E43A599B /* Pods-OTTProject-OTTProjectUITests.modulemap */,
+				52282E1A2F3DF58ED70DE4D26DFF07E9 /* Pods-OTTProject-OTTProjectUITests-acknowledgements.markdown */,
+				B355BC97735C5344F8A14E427AEFDAA5 /* Pods-OTTProject-OTTProjectUITests-acknowledgements.plist */,
+				A0B9B509D2753258B4FEC9E16B9E83C7 /* Pods-OTTProject-OTTProjectUITests-dummy.m */,
+				CB08139062D09E7DD13D6CABBB7F4B65 /* Pods-OTTProject-OTTProjectUITests-frameworks.sh */,
+				4D98DA8BAF71B4A2B3EE75D937FE99F9 /* Pods-OTTProject-OTTProjectUITests-Info.plist */,
+				EFC90390021222AF2803C59683A2F4F0 /* Pods-OTTProject-OTTProjectUITests-umbrella.h */,
+				8F9E547DD3C0BE0DFB65B6B1CB2D5D7D /* Pods-OTTProject-OTTProjectUITests.debug.xcconfig */,
+				43B4D9ED5B0472DD93AD4130994C251E /* Pods-OTTProject-OTTProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-OTTProject-OTTProjectUITests";
+			path = "Target Support Files/Pods-OTTProject-OTTProjectUITests";
+			sourceTree = "<group>";
+		};
+		5C579560E9BEC0AEF555FC873D75B88A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD003BEDA31C2DDC8B82178F5D1C2D1A /* FLAnimatedImage.modulemap */,
+				9F1527A5DCA63C46058A9074B79E8AF5 /* FLAnimatedImage-dummy.m */,
+				4C4A9952142B2B98C60D07EFC87D51D2 /* FLAnimatedImage-Info.plist */,
+				DB167D0183CE85D641ADBD0FE90FA321 /* FLAnimatedImage-prefix.pch */,
+				BDDD120091BED18E97E29AB34353C0A9 /* FLAnimatedImage-umbrella.h */,
+				78B586E07231E403B365CEA3032908DC /* FLAnimatedImage.debug.xcconfig */,
+				178423D7613EAE6F133AFBF5B2CCB800 /* FLAnimatedImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLAnimatedImage";
+			sourceTree = "<group>";
+		};
+		5E6B32708DECE256001363E533D74E32 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D1FEB2D71D8E56074772067ACD17764 /* Pods-OTTProject */,
+				5506C03499F6E8D6C9BD9AD89F3E8D48 /* Pods-OTTProject-OTTProjectUITests */,
+				DAAAEF014573A5B35DE072F7DD87B110 /* Pods-OTTProjectTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FEEF317F4F9AA955E0CE5A1FAF5047F /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				CC1F5593A57296E9BDE8C7853FEEE637 /* FLAnimatedImage.h */,
+				7EA2961742B99582EC32D91A5C0A48A2 /* FLAnimatedImage.m */,
+				BC98E78D6F6E8917CBABA6A58ADFF51E /* FLAnimatedImageView.h */,
+				4A90AD9CF06EBBB823321B4D6C4DE47E /* FLAnimatedImageView.m */,
+				5C579560E9BEC0AEF555FC873D75B88A /* Support Files */,
+			);
+			name = FLAnimatedImage;
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC5800BB3AAFD3E119788196BC84235B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65CA3656D9E021D41299658F4054F39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FEEF317F4F9AA955E0CE5A1FAF5047F /* FLAnimatedImage */,
+				034F170015A37990A3B257B3E9E18754 /* UIScrollView-InfiniteScroll */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				C65CA3656D9E021D41299658F4054F39 /* Pods */,
+				1DD7CF3E40A95F78FF98BFC96958B8DB /* Products */,
+				5E6B32708DECE256001363E533D74E32 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DAAAEF014573A5B35DE072F7DD87B110 /* Pods-OTTProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6995443774A711E584FEE1255F529F /* Pods-OTTProjectTests.modulemap */,
+				E870F056EAF1EE0247F3579F93CF337F /* Pods-OTTProjectTests-acknowledgements.markdown */,
+				23045A6203579A3A84237642B665D4C6 /* Pods-OTTProjectTests-acknowledgements.plist */,
+				CE6AB690C124B3D0E8E3AB2289109F4E /* Pods-OTTProjectTests-dummy.m */,
+				5158190A9E908C93D2C18EC3775A86FD /* Pods-OTTProjectTests-frameworks.sh */,
+				5F4CE7D9CA926B344738DAD0573FDC73 /* Pods-OTTProjectTests-Info.plist */,
+				89599FAF53C29E045ADD3F48605BED28 /* Pods-OTTProjectTests-umbrella.h */,
+				CB595954FEC1A70D9083247EA7AC3721 /* Pods-OTTProjectTests.debug.xcconfig */,
+				CB136FE1A464EA967F8C08270613D13C /* Pods-OTTProjectTests.release.xcconfig */,
+			);
+			name = "Pods-OTTProjectTests";
+			path = "Target Support Files/Pods-OTTProjectTests";
+			sourceTree = "<group>";
+		};
+		FC5800BB3AAFD3E119788196BC84235B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4219BA7CAED0202261970996230F11F /* CoreGraphics.framework */,
+				0BADAF97F77FC4003B3610E7ACA312E1 /* Foundation.framework */,
+				434BDB8968205C3B66ECCF4FCB2767A8 /* ImageIO.framework */,
+				F5EE3948404F12C5B6DA9AF99AB40738 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9A570385976EB7B40B8FF2FCE43020DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF026726DB822494F4B6B8332348BD8 /* Pods-OTTProject-OTTProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBC6CD090B5947D9D85008A108B92D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC6A91F8484C74300097D377209B684 /* UIScrollView+InfiniteScroll.h in Headers */,
+				6AF4043ACDA23485E9C514F6C7CB349C /* UIScrollView-InfiniteScroll-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7306A2E19300F9A298A142901E30560 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E8DE110A824452B527E637119EE5D1 /* Pods-OTTProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3373F71AF2BB04C511FA5A42C2058A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA35339386CD1251FAD44A9E74A25D74 /* FLAnimatedImage.h in Headers */,
+				9F7158EF1A3E6E778AB1F8712A3AA86E /* FLAnimatedImage-umbrella.h in Headers */,
+				DB1D0708A4D56029D14636419B03F14C /* FLAnimatedImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E799FAE9960299999FB9937B988184D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAA9F46A8161BF490DE435EDE7C1ADC /* Pods-OTTProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		497D5613CAD2E8E4EBC2864BF6726F0F /* Pods-OTTProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C0CD46F6D2A35B0F25BB7E98188852 /* Build configuration list for PBXNativeTarget "Pods-OTTProject" */;
+			buildPhases = (
+				C7306A2E19300F9A298A142901E30560 /* Headers */,
+				3DEE02AB0E822767B89FEB42928840D6 /* Sources */,
+				3744F26541D3A340DA991CE42DD04A28 /* Frameworks */,
+				AC39D60B1FF12B5BAAC94C93FF5C9757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A3D4DEE31D154C502C681E6E4078343 /* PBXTargetDependency */,
+				7288C43611DEFDF81FC4AF1B755251B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-OTTProject";
+			productName = Pods_OTTProject;
+			productReference = 206EFD5745F665DA70E1B87969930E69 /* Pods-OTTProject */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E0D5D26BAF11FAF05112183104AB6 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
+			buildPhases = (
+				CE3373F71AF2BB04C511FA5A42C2058A /* Headers */,
+				1E8EC3E234C7C9360E20549F894EEE37 /* Sources */,
+				66EA4FFEBC42A175F2F8F73A17C682A5 /* Frameworks */,
+				6647735695BF982109ADB4F4B55B7017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedImage;
+			productName = FLAnimatedImage;
+			productReference = FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage */;
+			productType = "com.apple.product-type.framework";
+		};
+		757374F89DDF2BCCD3FB8DB84ECAF2F3 /* Pods-OTTProject-OTTProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDFA2C1656DFC51CBFCB2E2F0A5466A /* Build configuration list for PBXNativeTarget "Pods-OTTProject-OTTProjectUITests" */;
+			buildPhases = (
+				9A570385976EB7B40B8FF2FCE43020DC /* Headers */,
+				C75280DC3EF74CC7676EA62AA18AEECB /* Sources */,
+				E5180E571B88F0A07932B25EDA1D21C9 /* Frameworks */,
+				CE57AEC47E7D85846258C5CCA3E14341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12369242217D899310736F34941CE508 /* PBXTargetDependency */,
+				4E8A6A841F2A3FC8707C1B23A41FF6BC /* PBXTargetDependency */,
+			);
+			name = "Pods-OTTProject-OTTProjectUITests";
+			productName = Pods_OTTProject_OTTProjectUITests;
+			productReference = 27764D66BB3B2BA5195A9E20182CDB89 /* Pods-OTTProject-OTTProjectUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E07B8857C62239138B47708BB6DAF9B /* UIScrollView-InfiniteScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241C99FC86197297FB9628E61A2CC938 /* Build configuration list for PBXNativeTarget "UIScrollView-InfiniteScroll" */;
+			buildPhases = (
+				BCBC6CD090B5947D9D85008A108B92D7 /* Headers */,
+				5DE46F2D75A184C9E85F13512500770C /* Sources */,
+				7E542CF8906B320549BAA8D476A3644A /* Frameworks */,
+				7536A629488710DD2642DFFAF5302DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIScrollView-InfiniteScroll";
+			productName = UIScrollView_InfiniteScroll;
+			productReference = F48A8D26D0C9A44FD230008931E0AAC5 /* UIScrollView-InfiniteScroll */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD80A854EAD18CF781B688D7D5145D19 /* Pods-OTTProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389DFC0DA1DCF5ACEA98EB448A03D616 /* Build configuration list for PBXNativeTarget "Pods-OTTProjectTests" */;
+			buildPhases = (
+				E799FAE9960299999FB9937B988184D8 /* Headers */,
+				75977AE71C840D59D7636DB2ECC6B8AC /* Sources */,
+				89A4BDB8FB8EEC541B2FAAF8F1F60B03 /* Frameworks */,
+				270F0E9041632DD14EB9045ABC60583B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28337C209AA4A573C8665F5A04050F29 /* PBXTargetDependency */,
+				93E0089D6287309BE46623FEEF6A0D6B /* PBXTargetDependency */,
+				640EE793C7F148C1B81AF5F933BFD5C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-OTTProjectTests";
+			productName = Pods_OTTProjectTests;
+			productReference = 13D6481274E17A3D8E57717201F1E884 /* Pods-OTTProjectTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1DD7CF3E40A95F78FF98BFC96958B8DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */,
+				497D5613CAD2E8E4EBC2864BF6726F0F /* Pods-OTTProject */,
+				757374F89DDF2BCCD3FB8DB84ECAF2F3 /* Pods-OTTProject-OTTProjectUITests */,
+				DD80A854EAD18CF781B688D7D5145D19 /* Pods-OTTProjectTests */,
+				7E07B8857C62239138B47708BB6DAF9B /* UIScrollView-InfiniteScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270F0E9041632DD14EB9045ABC60583B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6647735695BF982109ADB4F4B55B7017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7536A629488710DD2642DFFAF5302DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39D60B1FF12B5BAAC94C93FF5C9757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE57AEC47E7D85846258C5CCA3E14341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8EC3E234C7C9360E20549F894EEE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B507E9F301E6BC9F4D8EB8043B01CD3 /* FLAnimatedImage.m in Sources */,
+				42656EE69CA697C4F483ED44B688B529 /* FLAnimatedImage-dummy.m in Sources */,
+				6E91C0E1F97D0DCA638585D647C0C075 /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEE02AB0E822767B89FEB42928840D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FA71F080EACF27E57C62E69C735355 /* Pods-OTTProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE46F2D75A184C9E85F13512500770C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72A94EA4077D1B554A75F9BBE09028 /* UIScrollView+InfiniteScroll.m in Sources */,
+				ABA5F774679629B93A204BE0E3A78CE6 /* UIScrollView-InfiniteScroll-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75977AE71C840D59D7636DB2ECC6B8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B88D0CD283F3D5AAA5D4C3ABDBAF02 /* Pods-OTTProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75280DC3EF74CC7676EA62AA18AEECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B1C850878D64EFD1BCE8A6B78453B7 /* Pods-OTTProject-OTTProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12369242217D899310736F34941CE508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */;
+			targetProxy = E8F5FE5CB19B05E475B0D72D334D5484 /* PBXContainerItemProxy */;
+		};
+		28337C209AA4A573C8665F5A04050F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */;
+			targetProxy = E861A54EA68F8D38806EB2EBF3B6E24D /* PBXContainerItemProxy */;
+		};
+		4E8A6A841F2A3FC8707C1B23A41FF6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIScrollView-InfiniteScroll";
+			target = 7E07B8857C62239138B47708BB6DAF9B /* UIScrollView-InfiniteScroll */;
+			targetProxy = 42E48A2D1F94074774794927917792D9 /* PBXContainerItemProxy */;
+		};
+		640EE793C7F148C1B81AF5F933BFD5C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIScrollView-InfiniteScroll";
+			target = 7E07B8857C62239138B47708BB6DAF9B /* UIScrollView-InfiniteScroll */;
+			targetProxy = D5388B90EA466EE8F5A77446C4462F36 /* PBXContainerItemProxy */;
+		};
+		6A3D4DEE31D154C502C681E6E4078343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */;
+			targetProxy = 5476C1775E3668F4C47BF8AC7F9962A5 /* PBXContainerItemProxy */;
+		};
+		7288C43611DEFDF81FC4AF1B755251B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIScrollView-InfiniteScroll";
+			target = 7E07B8857C62239138B47708BB6DAF9B /* UIScrollView-InfiniteScroll */;
+			targetProxy = 261CDF743CD8FA7E72A1D998B2930C19 /* PBXContainerItemProxy */;
+		};
+		93E0089D6287309BE46623FEEF6A0D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OTTProject";
+			target = 497D5613CAD2E8E4EBC2864BF6726F0F /* Pods-OTTProject */;
+			targetProxy = 10BEE6FD0AC9D7CD26367BB50C68405B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19D3D6B2510D6CB8B903F7D014481CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B4D9ED5B0472DD93AD4130994C251E /* Pods-OTTProject-OTTProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTTProject-OTTProjectUITests/Pods-OTTProject-OTTProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTTProject-OTTProjectUITests/Pods-OTTProject-OTTProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D55E655ED88877010E7399E76687D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BCF69F2DEC9483BD36F05BD32BE1ECD /* UIScrollView-InfiniteScroll.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIScrollView-InfiniteScroll/UIScrollView-InfiniteScroll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIScrollView-InfiniteScroll/UIScrollView-InfiniteScroll-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIScrollView-InfiniteScroll/UIScrollView-InfiniteScroll.modulemap";
+				PRODUCT_MODULE_NAME = UIScrollView_InfiniteScroll;
+				PRODUCT_NAME = UIScrollView_InfiniteScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27B8B3DCD5178F92BD52144B780ACC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178423D7613EAE6F133AFBF5B2CCB800 /* FLAnimatedImage.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		800B1D943FC5834DAAEF7875FA03C026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB595954FEC1A70D9083247EA7AC3721 /* Pods-OTTProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTTProjectTests/Pods-OTTProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTTProjectTests/Pods-OTTProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9768039E79E7957A0142B286BA7EF887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327F47D7F48C1AC7308A4F05D9AD2168 /* Pods-OTTProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTTProject/Pods-OTTProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTTProject/Pods-OTTProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B331B85BC86DCDA64D40582460C51CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9E547DD3C0BE0DFB65B6B1CB2D5D7D /* Pods-OTTProject-OTTProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTTProject-OTTProjectUITests/Pods-OTTProject-OTTProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTTProject-OTTProjectUITests/Pods-OTTProject-OTTProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C90FB31B6E30D496044069D590B99BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854E694C9F2B9E1ABAACF7F523EAC82D /* Pods-OTTProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTTProject/Pods-OTTProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTTProject/Pods-OTTProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D601095F1A4ED71897812C817A0EF4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B586E07231E403B365CEA3032908DC /* FLAnimatedImage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E821C1873F24C826A3F208C4739CFBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB136FE1A464EA967F8C08270613D13C /* Pods-OTTProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTTProjectTests/Pods-OTTProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTTProjectTests/Pods-OTTProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE7AB460B63CB1829758CF4F90B8ABE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01978B724CECF9356E8C344EA51463C /* UIScrollView-InfiniteScroll.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIScrollView-InfiniteScroll/UIScrollView-InfiniteScroll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIScrollView-InfiniteScroll/UIScrollView-InfiniteScroll-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIScrollView-InfiniteScroll/UIScrollView-InfiniteScroll.modulemap";
+				PRODUCT_MODULE_NAME = UIScrollView_InfiniteScroll;
+				PRODUCT_NAME = UIScrollView_InfiniteScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C0CD46F6D2A35B0F25BB7E98188852 /* Build configuration list for PBXNativeTarget "Pods-OTTProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90FB31B6E30D496044069D590B99BB9 /* Debug */,
+				9768039E79E7957A0142B286BA7EF887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DDFA2C1656DFC51CBFCB2E2F0A5466A /* Build configuration list for PBXNativeTarget "Pods-OTTProject-OTTProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B331B85BC86DCDA64D40582460C51CBC /* Debug */,
+				19D3D6B2510D6CB8B903F7D014481CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241C99FC86197297FB9628E61A2CC938 /* Build configuration list for PBXNativeTarget "UIScrollView-InfiniteScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D55E655ED88877010E7399E76687D9C /* Debug */,
+				EE7AB460B63CB1829758CF4F90B8ABE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		389DFC0DA1DCF5ACEA98EB448A03D616 /* Build configuration list for PBXNativeTarget "Pods-OTTProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800B1D943FC5834DAAEF7875FA03C026 /* Debug */,
+				E821C1873F24C826A3F208C4739CFBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E0D5D26BAF11FAF05112183104AB6 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D601095F1A4ED71897812C817A0EF4C1 /* Debug */,
+				27B8B3DCD5178F92BD52144B780ACC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

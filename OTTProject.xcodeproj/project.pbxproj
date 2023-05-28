@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6599C8294B1B559D7C74DF27 /* Pods_OTTProject_OTTProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 765FCE3D6A8AC45054719065 /* Pods_OTTProject_OTTProjectUITests.framework */; };
+		88B11BD32A22145F003B0353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11BD22A22145F003B0353 /* AppDelegate.swift */; };
+		88B11BDA2A22145F003B0353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B11BD82A22145F003B0353 /* Main.storyboard */; };
+		88B11BDC2A221461003B0353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B11BDB2A221461003B0353 /* Assets.xcassets */; };
+		88B11BDF2A221461003B0353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B11BDD2A221461003B0353 /* LaunchScreen.storyboard */; };
+		88B11BEA2A221461003B0353 /* OTTProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11BE92A221461003B0353 /* OTTProjectTests.swift */; };
+		88B11BF42A221461003B0353 /* OTTProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11BF32A221461003B0353 /* OTTProjectUITests.swift */; };
+		88B11BF62A221461003B0353 /* OTTProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11BF52A221461003B0353 /* OTTProjectUITestsLaunchTests.swift */; };
+		88B11C0A2A221543003B0353 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C092A221543003B0353 /* MovieListViewController.swift */; };
+		88B11C0B2A221543003B0353 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C092A221543003B0353 /* MovieListViewController.swift */; };
+		88B11C0C2A221543003B0353 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C092A221543003B0353 /* MovieListViewController.swift */; };
+		88B11C0E2A221549003B0353 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C0D2A221549003B0353 /* HomeViewModel.swift */; };
+		88B11C0F2A221549003B0353 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C0D2A221549003B0353 /* HomeViewModel.swift */; };
+		88B11C102A221549003B0353 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C0D2A221549003B0353 /* HomeViewModel.swift */; };
+		88B11C122A22154F003B0353 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C112A22154E003B0353 /* MovieCollectionViewCell.swift */; };
+		88B11C132A22154F003B0353 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C112A22154E003B0353 /* MovieCollectionViewCell.swift */; };
+		88B11C142A22154F003B0353 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C112A22154E003B0353 /* MovieCollectionViewCell.swift */; };
+		88B11C162A221556003B0353 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C152A221555003B0353 /* SplashViewController.swift */; };
+		88B11C172A221556003B0353 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C152A221555003B0353 /* SplashViewController.swift */; };
+		88B11C182A221556003B0353 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C152A221555003B0353 /* SplashViewController.swift */; };
+		88B11C1A2A22155D003B0353 /* PosterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C192A22155D003B0353 /* PosterModel.swift */; };
+		88B11C1B2A22155D003B0353 /* PosterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C192A22155D003B0353 /* PosterModel.swift */; };
+		88B11C1C2A22155D003B0353 /* PosterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C192A22155D003B0353 /* PosterModel.swift */; };
+		88B11C1E2A22156A003B0353 /* CustomInfiniteIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C1D2A22156A003B0353 /* CustomInfiniteIndicator.swift */; };
+		88B11C1F2A22156A003B0353 /* CustomInfiniteIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C1D2A22156A003B0353 /* CustomInfiniteIndicator.swift */; };
+		88B11C202A22156A003B0353 /* CustomInfiniteIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C1D2A22156A003B0353 /* CustomInfiniteIndicator.swift */; };
+		88B11C222A22156F003B0353 /* Storyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C212A22156F003B0353 /* Storyboard+Extension.swift */; };
+		88B11C232A22156F003B0353 /* Storyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C212A22156F003B0353 /* Storyboard+Extension.swift */; };
+		88B11C242A22156F003B0353 /* Storyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C212A22156F003B0353 /* Storyboard+Extension.swift */; };
+		88B11C262A221577003B0353 /* splash_animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C252A221577003B0353 /* splash_animation.gif */; };
+		88B11C272A221578003B0353 /* splash_animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C252A221577003B0353 /* splash_animation.gif */; };
+		88B11C282A221578003B0353 /* splash_animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C252A221577003B0353 /* splash_animation.gif */; };
+		88B11C392A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C292A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json */; };
+		88B11C3A2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C292A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json */; };
+		88B11C3B2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C292A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json */; };
+		88B11C3C2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2A2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json */; };
+		88B11C3D2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2A2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json */; };
+		88B11C3E2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2A2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json */; };
+		88B11C3F2A22157E003B0353 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2C2A22157E003B0353 /* TitilliumWeb-Black.ttf */; };
+		88B11C402A22157E003B0353 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2C2A22157E003B0353 /* TitilliumWeb-Black.ttf */; };
+		88B11C412A22157E003B0353 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2C2A22157E003B0353 /* TitilliumWeb-Black.ttf */; };
+		88B11C422A22157E003B0353 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2D2A22157E003B0353 /* TitilliumWeb-Bold.ttf */; };
+		88B11C432A22157E003B0353 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2D2A22157E003B0353 /* TitilliumWeb-Bold.ttf */; };
+		88B11C442A22157E003B0353 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2D2A22157E003B0353 /* TitilliumWeb-Bold.ttf */; };
+		88B11C452A22157E003B0353 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2E2A22157E003B0353 /* TitilliumWeb-Regular.ttf */; };
+		88B11C462A22157E003B0353 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2E2A22157E003B0353 /* TitilliumWeb-Regular.ttf */; };
+		88B11C472A22157E003B0353 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2E2A22157E003B0353 /* TitilliumWeb-Regular.ttf */; };
+		88B11C482A22157E003B0353 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2F2A22157E003B0353 /* TitilliumWeb-SemiBold.ttf */; };
+		88B11C492A22157E003B0353 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2F2A22157E003B0353 /* TitilliumWeb-SemiBold.ttf */; };
+		88B11C4A2A22157E003B0353 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C2F2A22157E003B0353 /* TitilliumWeb-SemiBold.ttf */; };
+		88B11C4B2A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C302A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf */; };
+		88B11C4C2A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C302A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf */; };
+		88B11C4D2A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C302A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf */; };
+		88B11C4E2A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C312A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf */; };
+		88B11C4F2A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C312A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf */; };
+		88B11C502A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C312A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf */; };
+		88B11C512A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C322A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		88B11C522A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C322A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		88B11C532A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C322A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		88B11C542A22157E003B0353 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C332A22157E003B0353 /* OFL.txt */; };
+		88B11C552A22157E003B0353 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C332A22157E003B0353 /* OFL.txt */; };
+		88B11C562A22157E003B0353 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C332A22157E003B0353 /* OFL.txt */; };
+		88B11C572A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C342A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		88B11C582A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C342A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		88B11C592A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C342A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		88B11C5A2A22157E003B0353 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C352A22157E003B0353 /* TitilliumWeb-LightItalic.ttf */; };
+		88B11C5B2A22157E003B0353 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C352A22157E003B0353 /* TitilliumWeb-LightItalic.ttf */; };
+		88B11C5C2A22157E003B0353 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C352A22157E003B0353 /* TitilliumWeb-LightItalic.ttf */; };
+		88B11C5D2A22157E003B0353 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C362A22157E003B0353 /* TitilliumWeb-Italic.ttf */; };
+		88B11C5E2A22157E003B0353 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C362A22157E003B0353 /* TitilliumWeb-Italic.ttf */; };
+		88B11C5F2A22157E003B0353 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C362A22157E003B0353 /* TitilliumWeb-Italic.ttf */; };
+		88B11C602A22157E003B0353 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C372A22157E003B0353 /* TitilliumWeb-Light.ttf */; };
+		88B11C612A22157E003B0353 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C372A22157E003B0353 /* TitilliumWeb-Light.ttf */; };
+		88B11C622A22157E003B0353 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C372A22157E003B0353 /* TitilliumWeb-Light.ttf */; };
+		88B11C632A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C382A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json */; };
+		88B11C642A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C382A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json */; };
+		88B11C652A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B11C382A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json */; };
+		88B11C6B2A221782003B0353 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C6A2A221782003B0353 /* HomeViewControllerTests.swift */; };
+		88B11C6C2A2219C1003B0353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B11BD82A22145F003B0353 /* Main.storyboard */; };
+		88B11C6E2A22203E003B0353 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C6D2A22203E003B0353 /* CGFloat+Extension.swift */; };
+		88E538B22A2221E9003B49ED /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C6D2A22203E003B0353 /* CGFloat+Extension.swift */; };
+		88E538B32A2221EA003B49ED /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11C6D2A22203E003B0353 /* CGFloat+Extension.swift */; };
+		88E538B72A230612003B49ED /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E538B62A230612003B49ED /* SearchViewController.swift */; };
+		88E538B92A23083D003B49ED /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E538B82A23083D003B49ED /* UITextField+Extension.swift */; };
+		B504B0F3CD0FEA9B664B65C0 /* Pods_OTTProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6232324E187DE8C4BD0B3207 /* Pods_OTTProject.framework */; };
+		CC56F0101C8485CE8BC411B6 /* Pods_OTTProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23136D5BC50149CAEB83884 /* Pods_OTTProjectTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88B11BE62A221461003B0353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B11BC72A22145F003B0353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B11BCE2A22145F003B0353;
+			remoteInfo = OTTProject;
+		};
+		88B11BF02A221461003B0353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B11BC72A22145F003B0353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B11BCE2A22145F003B0353;
+			remoteInfo = OTTProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F28EDC6696B087BE8939E3 /* Pods-OTTProject-OTTProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTProject-OTTProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-OTTProject-OTTProjectUITests/Pods-OTTProject-OTTProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6232324E187DE8C4BD0B3207 /* Pods_OTTProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTTProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		765FCE3D6A8AC45054719065 /* Pods_OTTProject_OTTProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTTProject_OTTProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768C4B3D6DF008ED0D53FD82 /* Pods-OTTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTProject.debug.xcconfig"; path = "Target Support Files/Pods-OTTProject/Pods-OTTProject.debug.xcconfig"; sourceTree = "<group>"; };
+		88B11BCF2A22145F003B0353 /* OTTProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTTProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B11BD22A22145F003B0353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88B11BD92A22145F003B0353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88B11BDB2A221461003B0353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88B11BDE2A221461003B0353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88B11BE02A221461003B0353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B11BE52A221461003B0353 /* OTTProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B11BE92A221461003B0353 /* OTTProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTProjectTests.swift; sourceTree = "<group>"; };
+		88B11BEF2A221461003B0353 /* OTTProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B11BF32A221461003B0353 /* OTTProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTProjectUITests.swift; sourceTree = "<group>"; };
+		88B11BF52A221461003B0353 /* OTTProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88B11C092A221543003B0353 /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		88B11C0D2A221549003B0353 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		88B11C112A22154E003B0353 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		88B11C152A221555003B0353 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		88B11C192A22155D003B0353 /* PosterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterModel.swift; sourceTree = "<group>"; };
+		88B11C1D2A22156A003B0353 /* CustomInfiniteIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInfiniteIndicator.swift; sourceTree = "<group>"; };
+		88B11C212A22156F003B0353 /* Storyboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extension.swift"; sourceTree = "<group>"; };
+		88B11C252A221577003B0353 /* splash_animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash_animation.gif; sourceTree = "<group>"; };
+		88B11C292A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE3.json"; sourceTree = "<group>"; };
+		88B11C2A2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE2.json"; sourceTree = "<group>"; };
+		88B11C2C2A22157E003B0353 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		88B11C2D2A22157E003B0353 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		88B11C2E2A22157E003B0353 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		88B11C2F2A22157E003B0353 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		88B11C302A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		88B11C312A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		88B11C322A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		88B11C332A22157E003B0353 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		88B11C342A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		88B11C352A22157E003B0353 /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		88B11C362A22157E003B0353 /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Italic.ttf"; sourceTree = "<group>"; };
+		88B11C372A22157E003B0353 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		88B11C382A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE1.json"; sourceTree = "<group>"; };
+		88B11C6A2A221782003B0353 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		88B11C6D2A22203E003B0353 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		88E538B62A230612003B49ED /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		88E538B82A23083D003B49ED /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		AD1BC57EB929EB33E1529B13 /* Pods-OTTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTProject.release.xcconfig"; path = "Target Support Files/Pods-OTTProject/Pods-OTTProject.release.xcconfig"; sourceTree = "<group>"; };
+		B23136D5BC50149CAEB83884 /* Pods_OTTProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTTProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D143C9661EE26D9B71C3C9 /* Pods-OTTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTProjectTests.release.xcconfig"; path = "Target Support Files/Pods-OTTProjectTests/Pods-OTTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2AF796A48AFE2DB39FAA249 /* Pods-OTTProject-OTTProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTProject-OTTProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-OTTProject-OTTProjectUITests/Pods-OTTProject-OTTProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D305F023391769B2402A919D /* Pods-OTTProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-OTTProjectTests/Pods-OTTProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B11BCC2A22145F003B0353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B504B0F3CD0FEA9B664B65C0 /* Pods_OTTProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B11BE22A221461003B0353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC56F0101C8485CE8BC411B6 /* Pods_OTTProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B11BEC2A221461003B0353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6599C8294B1B559D7C74DF27 /* Pods_OTTProject_OTTProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88B11BC62A22145F003B0353 = {
+			isa = PBXGroup;
+			children = (
+				88B11BD12A22145F003B0353 /* OTTProject */,
+				88B11BE82A221461003B0353 /* OTTProjectTests */,
+				88B11BF22A221461003B0353 /* OTTProjectUITests */,
+				88B11BD02A22145F003B0353 /* Products */,
+				DE405F02F5E00C270C9F2FAD /* Pods */,
+				E5DFDCDCD25741289DABC53D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88B11BD02A22145F003B0353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B11BCF2A22145F003B0353 /* OTTProject.app */,
+				88B11BE52A221461003B0353 /* OTTProjectTests.xctest */,
+				88B11BEF2A221461003B0353 /* OTTProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B11BD12A22145F003B0353 /* OTTProject */ = {
+			isa = PBXGroup;
+			children = (
+				88B11BD22A22145F003B0353 /* AppDelegate.swift */,
+				88B11C022A2214E4003B0353 /* ViewController */,
+				88B11C042A2214F4003B0353 /* ViewModel */,
+				88B11C062A22150C003B0353 /* View */,
+				88B11C032A2214EE003B0353 /* Model */,
+				88E538B42A222768003B49ED /* Utility */,
+				88B11BD82A22145F003B0353 /* Main.storyboard */,
+				88B11BDB2A221461003B0353 /* Assets.xcassets */,
+				88B11BDD2A221461003B0353 /* LaunchScreen.storyboard */,
+				88B11BE02A221461003B0353 /* Info.plist */,
+			);
+			path = OTTProject;
+			sourceTree = "<group>";
+		};
+		88B11BE82A221461003B0353 /* OTTProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				88B11BE92A221461003B0353 /* OTTProjectTests.swift */,
+				88B11C6A2A221782003B0353 /* HomeViewControllerTests.swift */,
+			);
+			path = OTTProjectTests;
+			sourceTree = "<group>";
+		};
+		88B11BF22A221461003B0353 /* OTTProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88B11BF32A221461003B0353 /* OTTProjectUITests.swift */,
+				88B11BF52A221461003B0353 /* OTTProjectUITestsLaunchTests.swift */,
+			);
+			path = OTTProjectUITests;
+			sourceTree = "<group>";
+		};
+		88B11C022A2214E4003B0353 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C152A221555003B0353 /* SplashViewController.swift */,
+				88B11C092A221543003B0353 /* MovieListViewController.swift */,
+				88E538B62A230612003B49ED /* SearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		88B11C032A2214EE003B0353 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C192A22155D003B0353 /* PosterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88B11C042A2214F4003B0353 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C0D2A221549003B0353 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88B11C052A2214FC003B0353 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C2B2A22157E003B0353 /* Font */,
+				88E538B52A22331A003B49ED /* Json */,
+				88B11C252A221577003B0353 /* splash_animation.gif */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		88B11C062A22150C003B0353 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C112A22154E003B0353 /* MovieCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88B11C072A221515003B0353 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C212A22156F003B0353 /* Storyboard+Extension.swift */,
+				88B11C6D2A22203E003B0353 /* CGFloat+Extension.swift */,
+				88E538B82A23083D003B49ED /* UITextField+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		88B11C082A221529003B0353 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C1D2A22156A003B0353 /* CustomInfiniteIndicator.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		88B11C2B2A22157E003B0353 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C2C2A22157E003B0353 /* TitilliumWeb-Black.ttf */,
+				88B11C2D2A22157E003B0353 /* TitilliumWeb-Bold.ttf */,
+				88B11C2E2A22157E003B0353 /* TitilliumWeb-Regular.ttf */,
+				88B11C2F2A22157E003B0353 /* TitilliumWeb-SemiBold.ttf */,
+				88B11C302A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf */,
+				88B11C312A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf */,
+				88B11C322A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf */,
+				88B11C332A22157E003B0353 /* OFL.txt */,
+				88B11C342A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf */,
+				88B11C352A22157E003B0353 /* TitilliumWeb-LightItalic.ttf */,
+				88B11C362A22157E003B0353 /* TitilliumWeb-Italic.ttf */,
+				88B11C372A22157E003B0353 /* TitilliumWeb-Light.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		88E538B42A222768003B49ED /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C082A221529003B0353 /* Helper */,
+				88B11C072A221515003B0353 /* Extension */,
+				88B11C052A2214FC003B0353 /* Assets */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		88E538B52A22331A003B49ED /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				88B11C382A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json */,
+				88B11C2A2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json */,
+				88B11C292A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		DE405F02F5E00C270C9F2FAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				768C4B3D6DF008ED0D53FD82 /* Pods-OTTProject.debug.xcconfig */,
+				AD1BC57EB929EB33E1529B13 /* Pods-OTTProject.release.xcconfig */,
+				D305F023391769B2402A919D /* Pods-OTTProjectTests.debug.xcconfig */,
+				B3D143C9661EE26D9B71C3C9 /* Pods-OTTProjectTests.release.xcconfig */,
+				C2AF796A48AFE2DB39FAA249 /* Pods-OTTProject-OTTProjectUITests.debug.xcconfig */,
+				03F28EDC6696B087BE8939E3 /* Pods-OTTProject-OTTProjectUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5DFDCDCD25741289DABC53D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6232324E187DE8C4BD0B3207 /* Pods_OTTProject.framework */,
+				B23136D5BC50149CAEB83884 /* Pods_OTTProjectTests.framework */,
+				765FCE3D6A8AC45054719065 /* Pods_OTTProject_OTTProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88B11BCE2A22145F003B0353 /* OTTProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B11BF92A221461003B0353 /* Build configuration list for PBXNativeTarget "OTTProject" */;
+			buildPhases = (
+				1FB85D161E4DECB51F12DFF8 /* [CP] Check Pods Manifest.lock */,
+				88B11BCB2A22145F003B0353 /* Sources */,
+				88B11BCC2A22145F003B0353 /* Frameworks */,
+				88B11BCD2A22145F003B0353 /* Resources */,
+				146D18613FC692BFAB1C54A4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTTProject;
+			productName = OTTProject;
+			productReference = 88B11BCF2A22145F003B0353 /* OTTProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88B11BE42A221461003B0353 /* OTTProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B11BFC2A221461003B0353 /* Build configuration list for PBXNativeTarget "OTTProjectTests" */;
+			buildPhases = (
+				F1DD0BCEF31FACCC55272D81 /* [CP] Check Pods Manifest.lock */,
+				88B11BE12A221461003B0353 /* Sources */,
+				88B11BE22A221461003B0353 /* Frameworks */,
+				88B11BE32A221461003B0353 /* Resources */,
+				EE2E40B5E8665AB49C54D221 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B11BE72A221461003B0353 /* PBXTargetDependency */,
+			);
+			name = OTTProjectTests;
+			productName = OTTProjectTests;
+			productReference = 88B11BE52A221461003B0353 /* OTTProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88B11BEE2A221461003B0353 /* OTTProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B11BFF2A221461003B0353 /* Build configuration list for PBXNativeTarget "OTTProjectUITests" */;
+			buildPhases = (
+				8E46CA4C5B3B9DBDE4ADDFAE /* [CP] Check Pods Manifest.lock */,
+				88B11BEB2A221461003B0353 /* Sources */,
+				88B11BEC2A221461003B0353 /* Frameworks */,
+				88B11BED2A221461003B0353 /* Resources */,
+				8DC0093953013AC84E5F2F9B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B11BF12A221461003B0353 /* PBXTargetDependency */,
+			);
+			name = OTTProjectUITests;
+			productName = OTTProjectUITests;
+			productReference = 88B11BEF2A221461003B0353 /* OTTProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88B11BC72A22145F003B0353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					88B11BCE2A22145F003B0353 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					88B11BE42A221461003B0353 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 88B11BCE2A22145F003B0353;
+					};
+					88B11BEE2A221461003B0353 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 88B11BCE2A22145F003B0353;
+					};
+				};
+			};
+			buildConfigurationList = 88B11BCA2A22145F003B0353 /* Build configuration list for PBXProject "OTTProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88B11BC62A22145F003B0353;
+			productRefGroup = 88B11BD02A22145F003B0353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B11BCE2A22145F003B0353 /* OTTProject */,
+				88B11BE42A221461003B0353 /* OTTProjectTests */,
+				88B11BEE2A221461003B0353 /* OTTProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B11BCD2A22145F003B0353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B11C602A22157E003B0353 /* TitilliumWeb-Light.ttf in Resources */,
+				88B11C542A22157E003B0353 /* OFL.txt in Resources */,
+				88B11C452A22157E003B0353 /* TitilliumWeb-Regular.ttf in Resources */,
+				88B11C4B2A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				88B11C512A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				88B11BDF2A221461003B0353 /* LaunchScreen.storyboard in Resources */,
+				88B11C392A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json in Resources */,
+				88B11C422A22157E003B0353 /* TitilliumWeb-Bold.ttf in Resources */,
+				88B11BDC2A221461003B0353 /* Assets.xcassets in Resources */,
+				88B11C3F2A22157E003B0353 /* TitilliumWeb-Black.ttf in Resources */,
+				88B11C572A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				88B11C3C2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json in Resources */,
+				88B11C632A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json in Resources */,
+				88B11C5D2A22157E003B0353 /* TitilliumWeb-Italic.ttf in Resources */,
+				88B11C262A221577003B0353 /* splash_animation.gif in Resources */,
+				88B11C482A22157E003B0353 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				88B11C4E2A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				88B11C5A2A22157E003B0353 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				88B11BDA2A22145F003B0353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B11BE32A221461003B0353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B11C582A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				88B11C5B2A22157E003B0353 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				88B11C642A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json in Resources */,
+				88B11C462A22157E003B0353 /* TitilliumWeb-Regular.ttf in Resources */,
+				88B11C612A22157E003B0353 /* TitilliumWeb-Light.ttf in Resources */,
+				88B11C552A22157E003B0353 /* OFL.txt in Resources */,
+				88B11C6C2A2219C1003B0353 /* Main.storyboard in Resources */,
+				88B11C492A22157E003B0353 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				88B11C5E2A22157E003B0353 /* TitilliumWeb-Italic.ttf in Resources */,
+				88B11C432A22157E003B0353 /* TitilliumWeb-Bold.ttf in Resources */,
+				88B11C4C2A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				88B11C3D2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json in Resources */,
+				88B11C522A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				88B11C3A2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json in Resources */,
+				88B11C272A221578003B0353 /* splash_animation.gif in Resources */,
+				88B11C4F2A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				88B11C402A22157E003B0353 /* TitilliumWeb-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B11BED2A221461003B0353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B11C592A22157E003B0353 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				88B11C5C2A22157E003B0353 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				88B11C652A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE1.json in Resources */,
+				88B11C472A22157E003B0353 /* TitilliumWeb-Regular.ttf in Resources */,
+				88B11C622A22157E003B0353 /* TitilliumWeb-Light.ttf in Resources */,
+				88B11C562A22157E003B0353 /* OFL.txt in Resources */,
+				88B11C4A2A22157E003B0353 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				88B11C5F2A22157E003B0353 /* TitilliumWeb-Italic.ttf in Resources */,
+				88B11C442A22157E003B0353 /* TitilliumWeb-Bold.ttf in Resources */,
+				88B11C4D2A22157E003B0353 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				88B11C3E2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE2.json in Resources */,
+				88B11C532A22157E003B0353 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				88B11C3B2A22157E003B0353 /* CONTENTLISTINGPAGE-PAGE3.json in Resources */,
+				88B11C282A221578003B0353 /* splash_animation.gif in Resources */,
+				88B11C502A22157E003B0353 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				88B11C412A22157E003B0353 /* TitilliumWeb-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		146D18613FC692BFAB1C54A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTTProject/Pods-OTTProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTTProject/Pods-OTTProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTTProject/Pods-OTTProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FB85D161E4DECB51F12DFF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTTProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DC0093953013AC84E5F2F9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTTProject-OTTProjectUITests/Pods-OTTProject-OTTProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTTProject-OTTProjectUITests/Pods-OTTProject-OTTProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTTProject-OTTProjectUITests/Pods-OTTProject-OTTProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E46CA4C5B3B9DBDE4ADDFAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTTProject-OTTProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2E40B5E8665AB49C54D221 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTTProjectTests/Pods-OTTProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTTProjectTests/Pods-OTTProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTTProjectTests/Pods-OTTProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1DD0BCEF31FACCC55272D81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTTProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88B11BCB2A22145F003B0353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E538B72A230612003B49ED /* SearchViewController.swift in Sources */,
+				88B11BD32A22145F003B0353 /* AppDelegate.swift in Sources */,
+				88B11C0E2A221549003B0353 /* HomeViewModel.swift in Sources */,
+				88B11C1A2A22155D003B0353 /* PosterModel.swift in Sources */,
+				88B11C1E2A22156A003B0353 /* CustomInfiniteIndicator.swift in Sources */,
+				88B11C122A22154F003B0353 /* MovieCollectionViewCell.swift in Sources */,
+				88E538B92A23083D003B49ED /* UITextField+Extension.swift in Sources */,
+				88B11C6E2A22203E003B0353 /* CGFloat+Extension.swift in Sources */,
+				88B11C0A2A221543003B0353 /* MovieListViewController.swift in Sources */,
+				88B11C222A22156F003B0353 /* Storyboard+Extension.swift in Sources */,
+				88B11C162A221556003B0353 /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B11BE12A221461003B0353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B11BEA2A221461003B0353 /* OTTProjectTests.swift in Sources */,
+				88B11C6B2A221782003B0353 /* HomeViewControllerTests.swift in Sources */,
+				88B11C0F2A221549003B0353 /* HomeViewModel.swift in Sources */,
+				88B11C1B2A22155D003B0353 /* PosterModel.swift in Sources */,
+				88E538B22A2221E9003B49ED /* CGFloat+Extension.swift in Sources */,
+				88B11C1F2A22156A003B0353 /* CustomInfiniteIndicator.swift in Sources */,
+				88B11C132A22154F003B0353 /* MovieCollectionViewCell.swift in Sources */,
+				88B11C0B2A221543003B0353 /* MovieListViewController.swift in Sources */,
+				88B11C232A22156F003B0353 /* Storyboard+Extension.swift in Sources */,
+				88B11C172A221556003B0353 /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B11BEB2A221461003B0353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B11BF62A221461003B0353 /* OTTProjectUITestsLaunchTests.swift in Sources */,
+				88B11BF42A221461003B0353 /* OTTProjectUITests.swift in Sources */,
+				88B11C0C2A221543003B0353 /* MovieListViewController.swift in Sources */,
+				88B11C182A221556003B0353 /* SplashViewController.swift in Sources */,
+				88E538B32A2221EA003B49ED /* CGFloat+Extension.swift in Sources */,
+				88B11C142A22154F003B0353 /* MovieCollectionViewCell.swift in Sources */,
+				88B11C242A22156F003B0353 /* Storyboard+Extension.swift in Sources */,
+				88B11C1C2A22155D003B0353 /* PosterModel.swift in Sources */,
+				88B11C202A22156A003B0353 /* CustomInfiniteIndicator.swift in Sources */,
+				88B11C102A221549003B0353 /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88B11BE72A221461003B0353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B11BCE2A22145F003B0353 /* OTTProject */;
+			targetProxy = 88B11BE62A221461003B0353 /* PBXContainerItemProxy */;
+		};
+		88B11BF12A221461003B0353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B11BCE2A22145F003B0353 /* OTTProject */;
+			targetProxy = 88B11BF02A221461003B0353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88B11BD82A22145F003B0353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B11BD92A22145F003B0353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88B11BDD2A221461003B0353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B11BDE2A221461003B0353 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88B11BF72A221461003B0353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88B11BF82A221461003B0353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88B11BFA2A221461003B0353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768C4B3D6DF008ED0D53FD82 /* Pods-OTTProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZPF2AS7QL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OTTProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OTTProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88B11BFB2A221461003B0353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1BC57EB929EB33E1529B13 /* Pods-OTTProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZPF2AS7QL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OTTProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OTTProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88B11BFD2A221461003B0353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D305F023391769B2402A919D /* Pods-OTTProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OTTProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTTProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OTTProject";
+			};
+			name = Debug;
+		};
+		88B11BFE2A221461003B0353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D143C9661EE26D9B71C3C9 /* Pods-OTTProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OTTProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTTProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OTTProject";
+			};
+			name = Release;
+		};
+		88B11C002A221461003B0353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2AF796A48AFE2DB39FAA249 /* Pods-OTTProject-OTTProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OTTProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTTProject;
+			};
+			name = Debug;
+		};
+		88B11C012A221461003B0353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F28EDC6696B087BE8939E3 /* Pods-OTTProject-OTTProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OTTProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTTProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B11BCA2A22145F003B0353 /* Build configuration list for PBXProject "OTTProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B11BF72A221461003B0353 /* Debug */,
+				88B11BF82A221461003B0353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B11BF92A221461003B0353 /* Build configuration list for PBXNativeTarget "OTTProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B11BFA2A221461003B0353 /* Debug */,
+				88B11BFB2A221461003B0353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B11BFC2A221461003B0353 /* Build configuration list for PBXNativeTarget "OTTProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B11BFD2A221461003B0353 /* Debug */,
+				88B11BFE2A221461003B0353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B11BFF2A221461003B0353 /* Build configuration list for PBXNativeTarget "OTTProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B11C002A221461003B0353 /* Debug */,
+				88B11C012A221461003B0353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88B11BC72A22145F003B0353 /* Project object */;
+}
