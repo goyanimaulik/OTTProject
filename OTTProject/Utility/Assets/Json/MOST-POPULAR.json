@@ -1,0 +1,36 @@
+{
+  "page": {
+    "title": "Popular search",
+    "total-content-items" : "6",
+    "page-num" : "1",
+    "page-size" : "10",
+    "content-items": {
+      "content": [
+        {
+          "name": "Family Pot",
+          "poster-image": "poster9.jpg"
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster7.jpg"
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster9.jpg"
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster2.jpg"
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster1.jpg"
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster8.jpg"
+        }
+      ]
+    }
+  }
+}

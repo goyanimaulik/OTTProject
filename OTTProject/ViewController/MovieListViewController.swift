@@ -15,11 +15,11 @@ class MovieListViewController: UIViewController {
     @IBOutlet weak var movieCV: UICollectionView!
 
     //MARK: - Variables
-    private let homeViewModel = HomeViewModel()
+    private let movieViewModel = MovieViewModel()
     var movieArray: [PosterModel.Content] = [] //first section (1,2 page)
     var movieArray2: [PosterModel.Content] = [] //2nd section (3rd page)
     
-    var pageNo = 1
+    var pageNo = 0
     var totalItems = 1
     var itemPerPage = 1
     
@@ -39,17 +39,26 @@ class MovieListViewController: UIViewController {
         }
     }
     
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        coordinator.animate(alongsideTransition: { [weak self] _ in
+            self?.movieCV.collectionViewLayout.invalidateLayout()
+        }, completion: nil)
+    }
+    
     //MARK: - Actions
     @IBAction func onBackBtn(_ sender: Any) {
     }
     @IBAction func onSearchBtn(_ sender: Any) {
         let searchVC = SearchViewController.instantiate(.main)
+        searchVC.movieArray = movieArray
+        searchVC.movieArray2 = movieArray2
         self.navigationController?.pushViewController(searchVC, animated: true)
     }
     //MARK: - API Calling
     func fetchNewData() {
         pageNo += 1
-        homeViewModel.fetchData(pageNo: pageNo) { [weak self] data in
+        movieViewModel.fetchData(pageNo: pageNo) { [weak self] data in
             guard let self = self else { return }
             DispatchQueue.main.async {
                 self.titleLbl.text = data.page?.title ?? "Home"

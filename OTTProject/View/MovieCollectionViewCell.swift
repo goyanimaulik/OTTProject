@@ -8,12 +8,19 @@
 import UIKit
 
 class MovieCollectionViewCell: UICollectionViewCell {
-    @IBOutlet weak var posterImg: UIImageView!
-    @IBOutlet weak var posterNameLbl: UILabel!
+    @IBOutlet weak var movieImg: UIImageView!
+    @IBOutlet weak var movieNameLbl: MarqueeLabel!
  
     func setupCell(data:PosterModel.Content) {
-        posterImg.setImage(url: data.posterImage)
-        posterNameLbl.text = data.name
+        movieImg.setImage(url: data.posterImage)
+        movieNameLbl.text = data.name
+        
+        movieNameLbl.type = .continuous
+        movieNameLbl.speed = .duration(10)
+        movieNameLbl.animationCurve = .linear
+        movieNameLbl.fadeLength = 10.0
+        movieNameLbl.leadingBuffer = 0
+        movieNameLbl.trailingBuffer = 40.0
     }
 
 }
